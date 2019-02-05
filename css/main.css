@@ -64,14 +64,6 @@ a:focus{
 }
 
 
-
-
-
-
-
-
-
-
 /*		Header 		*/
 
 header{
@@ -155,8 +147,8 @@ header nav li:first-child{
 header nav li a{
 	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-display: auto;
 	font-size: 16px;
-
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -185,15 +177,6 @@ header .social li:first-child{
 	margin: 0;
 }
 
-
-
-
-
-
-
-
-
-
 /*		Hero section 		*/
 
 .hero{
@@ -219,6 +202,7 @@ header .social li:first-child{
 .hero .caption h1{
 	color: #525252;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-display: auto;
 	font-size: 34px;
 	font-weight: bold;
 	word-break: break-word;
@@ -227,6 +211,7 @@ header .social li:first-child{
 .hero .caption p{
 	color: #6d6c6c;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-display: auto;
 	font-size: 16px;
 	line-height: 30px;
 	margin: 15px 0 35px 0;
@@ -245,9 +230,9 @@ a.app_store_btn{
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 	margin: 20px 20px 10px 0;
-
 	color: #525252;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
+	dont-display: auto;
 	font-size: 16px;
 }
 
@@ -298,6 +283,7 @@ a.app_link{
 	letter-spacing: .5px;
 	color: #636363;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-display: auto;
 	font-size: 16px;
 }
 
